@@ -22,4 +22,4 @@ Aþaðýdaki sorgu senaryolarýný **dvdrental** örnek veri tabaný üzerinden gerçekle
 
 * SELECT first_name, last_name FROM customer WHERE first_name = 'Mary';
 
-* SELECT * FROM film WHERE length < 50 AND NOT (rental_rate = 2.99 or rental_rate = 4.99);     
+* SELECT * FROM film WHERE length < 50 AND NOT (rental_rate = 2.99 or rental_rate = 4.99);   
