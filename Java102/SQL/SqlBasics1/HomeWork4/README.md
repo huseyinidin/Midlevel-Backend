@@ -10,7 +10,7 @@ Aþaðýdaki sorgu senaryolarýný **dvdrental** örnek veri tabaný üzerinden gerçekle
 
 4. **country** tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluþmaktadýr?
 
-5.**city** tablosundaki þehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
+5. **city** tablosundaki þehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 
 
 * SELECT DISTINCT replacement_cost FROM film; 
