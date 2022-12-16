@@ -1,29 +1,29 @@
 # ÖDEV - SQL 
 
-* test veritabaninizda employee isimli sütun bilgileri **id (INTEGER)**, **name VARCHAR(50)**, **birthday DATE**, **email VARCHAR(100)** olan bir tablo olusturalým.
+* test veritabaninizda employee isimli sütun bilgileri **id (INTEGER)**, **name VARCHAR(50)**, **birthday DATE**, **email VARCHAR(100)** olan bir tablo olusturalim.
 
 * Olusturdugumuz employee tablosuna **'Mockaroo'** servisini kullanarak 50 adet veri ekleyelim.
 
 * Sütunlarýn her birine göre diger sütunlari güncelleyecek 5 adet **UPDATE** islemi yapalim.
 
-* Sütunlarin her birine göre ilgili satiri silecek 5 adet **DELETE** iþlemi yapalým.
+* Sütunlarin her birine göre ilgili satiri silecek 5 adet **DELETE** iþlemi yapalim.
 
 
-*  ```CREATE TABLE employee (
+*  > CREATE TABLE employee (
  	 id INTEGER PRIMARY KEY,
 	 first_name VARCHAR(50) NOT NULL,
 	 birthday DATE, 
 	 email VARCHAR(100));
 
-*  ```50 Adet veri eklendi.
+*  > 50 Adet veri eklendi.
 
-*  ```UPDATE employee SET first_name = 'Alfa' WHERE id = 1;
+  > UPDATE employee SET first_name = 'Alfa' WHERE id = 1;
 UPDATE employee SET first_name = 'Romeo' WHERE id = 5;
 UPDATE employee SET first_name = 'Tango' WHERE id = 10;
 UPDATE employee SET first_name = 'Sierra' WHERE id = 15;
 UPDATE employee SET first_name = 'Delta' WHERE id = 20;
 
-*  ```DELETE FROM employee where id = 2;
+  > DELETE FROM employee where id = 2;
 DELETE FROM employee where id = 6;
 DELETE FROM employee where id = 11;
 DELETE FROM employee where id = 16;
