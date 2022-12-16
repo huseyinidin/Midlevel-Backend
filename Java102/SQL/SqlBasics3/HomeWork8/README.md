@@ -14,9 +14,15 @@
  	 id INTEGER PRIMARY KEY,
 	 first_name VARCHAR(50) NOT NULL,
 	 birthday DATE, 
+<<<<<<< HEAD
 	 email VARCHAR(100));
 
 * ```50 Adet veri eklendi.
+=======
+	 email VARCHAR(100));```
+
+* ```50 Adet veri eklendi.```
+>>>>>>> 74580c81eca92baad11bef0dec0270fb33b958d2
 
 * ```UPDATE employee SET first_name = 'Alfa' WHERE id = 1;
   UPDATE employee SET first_name = 'Tango' WHERE id = 5;
