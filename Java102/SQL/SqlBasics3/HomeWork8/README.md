@@ -14,8 +14,7 @@
  	 id INTEGER PRIMARY KEY,
 	 first_name VARCHAR(50) NOT NULL,
 	 birthday DATE, 
-	 email VARCHAR(100) 
- );```
+	 email VARCHAR(100));```
 
 * ```50 Adet veri eklendi.```
 
