@@ -16,7 +16,7 @@
 	 birthday DATE, 
 	 email VARCHAR(100));
 
-* ```50 Adet veri eklendi.
+* ```50 Adet veri eklendi. 
 
 * ```UPDATE employee SET first_name = 'Alfa' WHERE id = 1;
   UPDATE employee SET first_name = 'Tango' WHERE id = 5;
