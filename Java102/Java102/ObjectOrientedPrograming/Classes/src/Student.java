@@ -5,12 +5,13 @@ public class Student {
     private String idNo;
     private String address;
     private int note;
+
     public Student(String name, String surName, String idNo, String address, int note) {
         this.name = name;
         this.surName = surName;
         this.idNo = idNo;
         this.address = address;
-        if(note > 100 || note < 0){
+        if (note > 100 || note < 0) {
             note = 0;
         }
         this.note = note;
@@ -20,40 +21,40 @@ public class Student {
         return this.name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getSurName(){
+    public String getSurName() {
         return this.surName;
     }
 
-    public void setSurName(String surName){
+    public void setSurName(String surName) {
         this.surName = surName;
     }
 
-    public String getIdNo(){
+    public String getIdNo() {
         return this.idNo;
     }
 
-    public void setIdNo(String idNo){
+    public void setIdNo(String idNo) {
         this.idNo = idNo;
     }
 
-    public String getAddress(){
+    public String getAddress() {
         return this.address;
     }
 
-    public void setAddress(String address){
+    public void setAddress(String address) {
         this.address = address;
     }
 
-    public int getNote(){
+    public int getNote() {
         return this.note;
     }
 
-    public void setNote(int note){
-        if(note > 100 || note < 0){
+    public void setNote(int note) {
+        if (note > 100 || note < 0) {
             note = 0;
         }
         this.note = note;
