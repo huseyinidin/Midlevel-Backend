@@ -4,25 +4,25 @@ public class Course {
     private String code;
     private Instructor instructor;      // Composition , Aggregation
 
-    public Course(String courseName, String code, Instructor instructor){
+    public Course(String courseName, String code, Instructor instructor) {
         this.courseName = courseName;
         this.code = code;
         this.instructor = instructor;
     }
 
-    public String getCourseName(){
+    public String getCourseName() {
         return this.courseName;
     }
 
-    public void setCourseName(String courseName){
+    public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
 
-    public String getCode(){
+    public String getCode() {
         return this.code;
     }
 
-    public void setCode(String code){
+    public void setCode(String code) {
         this.code = code;
     }
 
@@ -36,9 +36,9 @@ public class Course {
 
     // Dependency
     // Course uses a Student
-    public double calcAvarage(Student[] students){
+    public double calcAvarage(Student[] students) {
         double avarage = 0.0;
-        for (Student student: students) {
+        for (Student student : students) {
             avarage += student.getNote();
         }
         return avarage / students.length;
